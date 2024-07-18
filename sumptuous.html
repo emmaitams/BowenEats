@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BowenEats</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anta&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anta&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anta&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Jacquarda+Bastarda+9&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/2bbac76676.js"
+      crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar" id="navbar">
+        <div class="navbar__container">
+          <div class="navbar_logo-container">
+            <div class="bowen_logo">
+              <img src="/img/bowen_logo.png" alt="" id="bowen_logo" />
+              <h1 id="navbar__logo">BowenEats</h1>
+            </div>
+          </div>
+
+          <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="navbar__menu">
+            <li id="navbar__item">
+              <a href="/index.html" class="navbar__links">Home</a>
+            </li>
+            <li id="navbar__item">
+              <a href="/my_orders.html" class="navbar__links">My Orders</a>
+            </li>
+            <!-- <li id="navbar__item">
+              <a href="#practice_areas" class="navbar__links">Food Basket</a>
+            </li> -->
+            <li id="navbar__item">
+              <a href="/cafeterias.html" class="navbar__links">Cafeterias</a>
+            </li>
+            <li id="navbar__item">
+              <a href="#" class="navbar__links">
+                <i class="fa-solid fa-cart-shopping"></i>Cart</a
+              >
+            </li>
+          </ul>
+
+          <div class="navbar__btn">
+            <a href="/menu.html" id="button">ORDER NOW</a>
+          </div>
+          <div class="profile">
+            <a href="/profile.html"
+              ><button id="profile">
+                <i class="fa-solid fa-user" id="profile"></i></button
+            ></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="cafe_menu">
+      <a href="/cafeterias.html">
+        <button id="back_arrow"><i class="fa-solid fa-arrow-left"></i></button
+      ></a>
+      <div class="cafe_menu-container">
+        <div class="cafe_menu-heading">
+          <hr id="line1" />
+          <h1 id="jubilee_menu">Sumptuous Menu</h1>
+          <hr id="line2" />
+        </div>
+        <div class="cafe_menu-container-top">
+          <div class="cafe_menu-contain">
+            <div class="car_pro">
+              <h2>CARBOHYDRATES</h2>
+              <div class="item">
+                <div class="food">Jollof Rice</div>
+                <div class="price"><span>&#8358;300</span></div>
+              </div>
+              <div class="item">
+                <div class="food">Fried Rice</div>
+                <div class="price"><span>&#8358;300</span></div>
+              </div>
+              <div class="item">
+                <div class="food">White Rice</div>
+                <div class="price"><span>&#8358;250</span></div>
+              </div>
+              <div class="item">
+                <div class="food">White Spag</div>
+                <div class="price"><span>&#8358;250</span></div>
+              </div>
+              <!-- <p>Jollof Rice</p>
+                  <p>Jollof Rice</p>
+                  <p>Jollof Rice</p> -->
+            </div>
+            <div class="car_pro">
+              <h2>PROTEIN</h2>
+              <div class="item">
+                <div class="food">Fish</div>
+                <div class="price"><span>&#8358;200</span></div>
+              </div>
+              <div class="item">
+                <div class="food">Meat</div>
+                <div class="price"><span>&#8358;100</span></div>
+              </div>
+              <div class="item">
+                <div class="food">Beef</div>
+                <div class="price"><span>&#8358;200</span></div>
+              </div>
+              <div class="item">
+                <div class="food">Egg</div>
+                <div class="price"><span>&#8358;150</span></div>
+              </div>
+              <!-- <p>Jollof Rice</p>
+                  <p>Jollof Rice</p>
+                  <p>Jollof Rice</p> -->
+            </div>
+          </div>
+          <div class="cafe_menu-contain">
+            <div class="car_pro">
+              <h2>DRINKS</h2>
+              <div class="item">
+                <div class="food">Coke</div>
+                <div class="price"><span>&#8358;400</span></div>
+              </div>
+              <div class="item">
+                <div class="food">Fanta</div>
+                <div class="price"><span>&#8358;400</span></div>
+              </div>
+              <div class="item">
+                <div class="food">Sprite</div>
+                <div class="price"><span>&#8358;400</span></div>
+              </div>
+              <div class="item">
+                <div class="food">Viju</div>
+                <div class="price"><span>&#8358;600</span></div>
+              </div>
+              <div class="item">
+                <div class="food">Sosa</div>
+                <div class="price"><span>&#8358;900</span></div>
+              </div>
+              <!-- <p>Jollof Rice</p>
+                  <p>Jollof Rice</p> -->
+            </div>
+            <div class="car_pro" id="snacks">
+              <h2>SNACKS</h2>
+              <div class="item">
+                <div class="food">Meat Pie</div>
+                <div class="price"><span>&#8358;400</span></div>
+              </div>
+              <div class="item">
+                <div class="food">Egg Roll</div>
+                <div class="price"><span>&#8358;250</span></div>
+              </div>
+              <div class="item">
+                <div class="food">Sausage</div>
+                <div class="price"><span>&#8358;250</span></div>
+              </div>
+              <div class="item">
+                <div class="food">Fish Pie</div>
+                <div class="price"><span>&#8358;400</span></div>
+              </div>
+              <div class="item">
+                <div class="food">Puff Puff</div>
+                <div class="price"><span>&#8358;50</span></div>
+              </div>
+              <!-- <p>Jollof Rice</p>
+                  <p>Jollof Rice</p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

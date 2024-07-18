@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BowenEats</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anta&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anta&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anta&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Jacquarda+Bastarda+9&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/2bbac76676.js"
+      crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar" id="navbar">
+        <div class="navbar__container">
+          <div class="navbar_logo-container">
+            <div class="bowen_logo">
+              <img src="/img/bowen_logo.png" alt="" id="bowen_logo" />
+              <h1 id="navbar__logo">BowenEats</h1>
+            </div>
+          </div>
+
+          <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="navbar__menu">
+            <li id="navbar__item">
+              <a href="/index.html" class="navbar__links">Home</a>
+            </li>
+            <li id="navbar__item">
+              <a href="/my_orders.html" class="navbar__links">My Orders</a>
+            </li>
+            <!-- <li id="navbar__item">
+              <a href="#practice_areas" class="navbar__links">Food Basket</a>
+            </li> -->
+            <li id="navbar__item">
+              <a href="/cafeterias.html" class="navbar__links">Cafeterias</a>
+            </li>
+            <li id="navbar__item">
+              <a href="#" class="navbar__links">
+                <i class="fa-solid fa-cart-shopping"></i>Cart</a
+              >
+            </li>
+          </ul>
+
+          <div class="navbar__btn">
+            <a href="/menu.html" id="button">ORDER NOW</a>
+          </div>
+          <div class="profile">
+            <a href="/profile.html"
+              ><button id="profile">
+                <i class="fa-solid fa-user" id="profile"></i></button
+            ></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="home_container">
+      <div class="side_bar">
+        <div class="sidebar">
+          <div class="sidebar_details">
+            <div class="side_links">
+              <div class="link">
+                <a href="#"
+                  ><img
+                    src="/img/deals.svg"
+                    alt="location"
+                    id="icons" />Deals</a
+                >
+              </div>
+              <div class="link">
+                <a href="/order_tracker.html"
+                  ><img
+                    src="/img/location2.svg"
+                    alt="location"
+                    id="icons" />Order Tracker</a
+                >
+              </div>
+              <div class="link">
+                <a href="/order_tracker.html"
+                  ><img
+                    src="/img/trumpet.svg"
+                    alt="location"
+                    id="icons" />Advertise With Us</a
+                >
+              </div>
+              <div class="link">
+                <a href="/my_orders.html"
+                  ><img src="/img/clock.svg" alt="location" id="icons" />My
+                  Orders</a
+                >
+              </div>
+              <div class="link">
+                <a href="/menu.html"
+                  ><img src="/img/menu.svg" alt="location" id="icons" />Our
+                  Store</a
+                >
+              </div>
+            </div>
+            <button id="vendor">BECOME A VENDOR</button>
+          </div>
+        </div>
+        <div class="auto-container">
+          <div class="auto">
+            <h1>Auto <i class="fa-solid fa-spinner" id="spinner"></i></h1>
+            <h1>Suggest</h1>
+            <h2>Instantly Get Food</h2>
+            <h2>Recommendations</h2>
+          </div>
+          <div class="auto_img">
+            <img src="/img/burger.png" alt="Burger" id="burger" />
+          </div>
+        </div>
+      </div>
+      <div class="home_main">
+        <select id="home_selection" name="home_selection">
+          <option value="">Breakfast</option>
+          <option value="">Carbohydrates</option>
+          <option value="">Proteins</option>
+          <option value="">Snacks</option>
+          <option value="">Drinks</option>
+        </select>
+        <input type="text" placeholder="What are you craving?" /><i
+          class="fa-solid fa-magnifying-glass"
+          id="search"></i>
+      </div>
+      <div class="home_body" class="bg-light bg-gradient">
+        <div class="body_text">
+          <h2><i class="fa-solid fa-location-dot"></i> Bowen University</h2>
+          <h3>
+            Deal With Your <br />
+            <span>Food Cravings</span>
+          </h3>
+          <p>
+            Enjoy the true taste of Bowen's delicaices when <br />
+            you order from BowenEats
+          </p>
+          <a href="/menu.html"><button id="order">ORDER NOW</button></a>
+        </div>
+        <div class="home_food">
+          <img src="/img/rice_home.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- <footer id="footer">
+      <div class="footer_container">
+        <div class="footer_content">
+          <div class="footer_logo">
+            <img src="/img/bowen_logo.png" alt="" id="footer_logo" />
+            <h1 id="footer_logo">BowenEats</h1>
+          </div>
+          <div class="footer_list">
+            <a href="">Cafeterias</a>
+            <a href="">Menu</a>
+            <a href="">Order Tracker</a>
+          </div>
+          <div class="footer_list">
+            <a href="">Contact Us</a>
+            <a href="">Help Center</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Terms of Service</a>
+          </div>
+          <div class="footer_list">
+            <a href="">About Us</a>
+            <a href="">Support</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Terms of Service</a>
+          </div> 
+          <div class="footer_list">
+            <a href="">Contact Us</a>
+            <a href="">Help Center</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Terms of Service</a>
+          </div>
+        </div>
+        <hr />
+        <div class="socials">
+          <i class="fa-brands fa-instagram" id="socials"></i>
+          <i class="fa-brands fa-facebook" id="socials"></i>
+          <i class="fa-brands fa-twitter" id="socials"></i>
+          <i class="fa-brands fa-linkedin" id="socials"></i>
+        </div>
+        <div class="copyright">&copy; Bowen University 2024</div>
+      </div>
+    </footer> -->
+    <script src="/main.js"></script>
+  </body>
+</html>
