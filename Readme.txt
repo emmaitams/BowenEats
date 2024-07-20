@@ -334,3 +334,109 @@ License: https://bootstrapmade.com/license/
         </div>
       </div>
     </header>
+
+
+
+    <div class="col-xl-4" data-aos="fade-up" data-aos-delay="200">
+            <div
+              class="icon-box d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-clipboard-data"></i>
+              <h4>Jubilee</h4>
+              <div class="text-center">
+                <a href="#" class="more-btn-2 glightbox"
+                  ><span>SEE MENU</span></a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- End Icon Box -->
+
+          <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
+            <div
+              class="icon-box d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-gem"></i>
+              <h4>BBSF</h4>
+              <div class="text-center">
+                <a href="#" class="more-btn-2"><span>SEE MENU</span></a>
+              </div>
+            </div>
+          </div>
+          <!-- End Icon Box -->
+
+          <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
+            <div
+              class="icon-box d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-inboxes"></i>
+              <h4>Kemi-Bee</h4>
+              <div class="text-center">
+                <a href="#" class="more-btn-2"><span>SEE MENU</span></a>
+              </div>
+            </div>
+          </div>
+          <!-- End Icon Box -->
+          <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
+            <div
+              class="icon-box d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-inboxes"></i>
+              <h4>Divine</h4>
+              <div class="text-center">
+                <a href="#" class="more-btn-2"><span>SEE MENU</span></a>
+              </div>
+            </div>
+          </div>
+          <!-- End Icon Box -->
+          <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
+            <div
+              class="icon-box d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-inboxes"></i>
+              <h4>Y2K</h4>
+              <div class="text-center">
+                <a href="#" class="more-btn-2"><span>SEE MENU</span></a>
+              </div>
+            </div>
+          </div>
+          <!-- End Icon Box -->
+          <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
+            <div
+              class="icon-box d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-inboxes"></i>
+              <h4>Blessed</h4>
+              <div class="text-center">
+                <a href="#" class="more-btn-2"><span>SEE MENU</span></a>
+              </div>
+            </div>
+          </div>
+          <!-- End Icon Box -->
+          <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
+            <div
+              class="icon-box d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-inboxes"></i>
+              <h4>Buwa</h4>
+              <div class="text-center">
+                <a href="#" class="more-btn-2"><span>SEE MENU</span></a>
+              </div>
+            </div>
+          </div>
+          <!-- End Icon Box -->
+          <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
+            <div
+              class="icon-box d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-inboxes"></i>
+              <h4>Forza</h4>
+              <div class="text-center">
+                <a href="#" class="more-btn-2"><span>SEE MENU</span></a>
+              </div>
+            </div>
+          </div>
+          <!-- End Icon Box -->
+          <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
+            <div
+              class="icon-box d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-inboxes"></i>
+              <h4>Destination</h4>
+              <div class="text-center">
+                <a href="#" class="more-btn-2"><span>SEE MENU</span></a>
+              </div>
+            </div>
+          </div>
+          <!-- End Icon Box -->
